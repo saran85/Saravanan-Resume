@@ -7,7 +7,7 @@ padding:0;
 
 header {
 	background-color:orangered;
-	background-image: linear-gradient(to right, #DDA0DD , #800080);
+	background-image: linear-gradient(to right, #babdad,#222122,#babdad);
 	text-align:center;
 	color:white;
 	font-family: sans serif;
@@ -243,10 +243,21 @@ header p{
 	border-bottom:2px solid #c6f2f3;
 }
 footer{
+  padding: 10px;
 	background:#efefef;
 	text-align:center;
 	
 }
 footer .btn{
-	border:2px solid #c6f2f3;
+  border-radius: 30px
+}
+.bottom-border{
+ margin-left: 45%;
+ background-color:#53b5e3;
+  text-align: center;
+   width:150px;
+   height:20px;
+   border: 1px solid #53b5e3;
+   border-radius:800px 0 800px 100px;
+   
 }
